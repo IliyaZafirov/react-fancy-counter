@@ -1,6 +1,11 @@
-function App() {
+import Card from "./Card";
 
-  return <p>Hello everyone!</p>
+function App() {
+  return (
+    <main>
+      <Card />
+    </main>
+  );
 }
 
 export default App
